@@ -1,0 +1,10 @@
+@EmployeeManagement_HostAddress = http://localhost:5116
+
+GET {{EmployeeManagement_HostAddress}}/GetAllEmployees/
+Accept: application/json
+
+
+POST {{EmployeeManagement_HostAddress}}/GetEmployeesById
+Accept: application/json
+
+###
